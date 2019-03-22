@@ -1,6 +1,9 @@
 .Header {
   /* background-color: red; */
-  position: sticky;
+  position: fixed;
+  height: 30px;
+  width: 100%;
+  background: white;
   color: red;
   float: none;
   margin: auto;
