@@ -74,8 +74,9 @@
 } */
 
 .image_header {
-  height: 333px;
+  height: 100%;
   width: 100%;
+
 }
 
 .footer {
@@ -95,7 +96,7 @@
 
 #body {
   padding-left: 120px;
-  padding-right: 140px;
+  padding-right: 120px;
 }
 
 #column {
@@ -106,4 +107,13 @@
 .img_column {
   height: 250px width= 100%;
 
+}
+
+.footer_contact {
+  background-color: #303030;
+  color: white
+}
+
+.footer_contact_text {
+color: white;
 }
