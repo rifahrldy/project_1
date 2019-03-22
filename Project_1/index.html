@@ -3,6 +3,8 @@
   <head>
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="shoutcut icon" href="images/black.jpg">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Project 1</title>
 
     <!-- Bootstarp w3 -->
@@ -22,10 +24,13 @@
 
   </head>
   <body>
-    <div class="topnav">
+    <div class="topnav" id="myTopnav">
         <a class="active" href="index.html">HOME</a>
         <a href="#about">ABOUT</a>
         <a href="contact_us.html">CONTACT US</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+   <i class="fa fa-bars"></i>
+ </a>
       </div>
 
     <img class="image_header" src="images/image_header.jpg" alt="image_header"></img>
@@ -70,6 +75,17 @@
 <div class="footer">
   <p class="text_footer">copyright©2019 Powered by rifahrldy </p>
 </div>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
 
   </body>
 
