@@ -8,14 +8,15 @@
   float: none;
   margin: auto;
   text-align: center;
-  padding-right: 200px;
+  padding-right: 250px;
   font-size: 20px;
   text-indent: 100px;
   font-family: Arial;
+  
 }
 
-a {
-  text-align: center;
+a:link {
+  color: black;
 }
 
 li {
@@ -50,4 +51,9 @@ li {
 #column {
   text-align: center;
   padding-top: 5px;
+}
+
+.img_column {
+  height: 250px width= 100%;
+
 }
