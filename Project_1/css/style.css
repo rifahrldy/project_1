@@ -87,6 +87,7 @@
   width: 100%;
   background-color: #000000;
   height: 35px
+
 }
 
 .text_footer {
@@ -110,24 +111,80 @@
 }
 
 .footer_contact {
-  background-color: #303030;
-  color: white
+  background-color: #303030 ;
+  height: 150px;
+  position: relative;
+
 
 }
 
 .footer_contact_text {
   text-align: left;
   padding-left: 120px;
+  color: white
 }
 
 .footer_follow_text {
   text-align: right;
   padding-right: 120px;
-  padding-top : 0;
+  color: white
 }
 
 
 .body_quotes {
   text-align: center;
   color: 	#838b8b;
+}
+
+.grid-container {
+  display: grid;
+  grid: 150px / 50% auto auto;
+  grid-gap: 10px;
+  background-color: #303030;
+  padding: 10px;
+}
+
+.grid-container > div {
+  text-align: left;
+  /* background-color: rgba(255, 255, 255, 0.8); */
+  font-family: monospace;
+  color: #838b8b;
+  padding: 20px 0;
+  padding-left: 120px;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
 }
