@@ -72,6 +72,9 @@
   text-decoration-color: white;
 
 } */
+h2 {
+  text-align: center;
+}
 
 .image_header {
   height: 100%;
